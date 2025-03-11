@@ -28,22 +28,6 @@ error = new Error(); //об'єкт помилки
 map = new Map(); //колекції: Maps, Sets
 set = new Set(); //WeakMaps, WeakSets
 
-// ++ --
-// 3 Прибавления после каждого следующего действия?
-let i = 5;
-//+
-console.log(i++);
-console.log(i);
-console.log(i);
-console.log(i);
-console.log(++i);
-console.log(i);
-//-
-console.log(i--);
-console.log(i);
-console.log(--i);
-console.log(i);
-
 //Меняем объект
 
 let obj = { number: 25 };
@@ -63,6 +47,22 @@ let myText = "Lorem ipsum dolor sit amet.";
 console.log(myText);
 console.log(myText.toUpperCase());
 console.log(myText.toLocaleLowerCase());
+
+// ++ --
+// 3 Прибавления после каждого следующего действия?
+let i = 5;
+//+
+console.log(i++);
+console.log(i);
+console.log(i);
+console.log(i);
+console.log(++i);
+console.log(i);
+//-
+console.log(i--);
+console.log(i);
+console.log(--i);
+console.log(i);
 
 //Для того, щоб створити такий об'єкт,
 // ми будемо використовувати конструктор Number():
@@ -97,7 +97,7 @@ console.log(myTest);
 const pi = Math.PI; //Число пи через метод Матх
 console.log(pi);
 
-const myRound = Math.round(89.279); // Метод раунд для округления числа если оно не целое
+const myRound = Math.round(89.908775656); // Метод раунд для округления числа если оно не целое
 console.log(myRound);
 
 const myRandom = Math.random() * 3; // Метод рандом для рандома чисел до зазначенного максимума "3"
@@ -112,14 +112,14 @@ strObject = {
 
 console.log(strObject);
 
-//7 idk
+//7
 let isRamaPos = strObject.str.indexOf("рама");
 let isRama = isRamaPos !== -1;
 
 console.log(isRamaPos);
 console.log(isRama);
 
-//8 idk
+//8
 let strObj = {
   str: "Мама мыла раму, рама мыла маму",
   length: "Мама мыла раму, рама мыла маму".length,
